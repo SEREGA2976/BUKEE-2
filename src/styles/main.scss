@@ -68,3 +68,16 @@ body{
         
     
 }
+.block-text{
+    &__name{
+        font-family: 'Open Sans', serif;
+    }
+    &__title{
+        font-size: 48px;
+        span{
+            display: block;
+            color: $accent-color;
+            font-size: 18px;
+        }
+    }
+}
