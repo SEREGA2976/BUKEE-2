@@ -1,0 +1,42 @@
+<svg id="book_img" data-name="book img" xmlns="http://www.w3.org/2000/svg" width="362.84" height="409" viewBox="0 0 362.84 409">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44444f;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #65e496;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #3d3d47;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: "Open Sans";
+      }
+
+      .cls-5 {
+        font-size: 24px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Roboto Slab";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect id="book" class="cls-1" width="268.938" height="409" rx="5" ry="5"/>
+  <path id="Rectangle_11_copy_3" data-name="Rectangle 11 copy 3" class="cls-2" d="M913.672,3676.17l105.658-61a5,5,0,1,1,5,8.66l-105.658,61A5,5,0,0,1,913.672,3676.17Z" transform="translate(-664 -3382)"/>
+  <path id="Rectangle_11_copy_2" data-name="Rectangle 11 copy 2" class="cls-2" d="M913.672,3649.17l105.658-61a5,5,0,1,1,5,8.66l-105.658,61A5,5,0,0,1,913.672,3649.17Z" transform="translate(-664 -3382)"/>
+  <rect class="cls-3" width="37.906" height="409"/>
+  <text id="_-_By_Emma_Anderson" data-name="- By Emma Anderson" class="cls-4" x="81" y="373.999">- By Emma Anderson</text>
+  <text id="Books_are_the_best_friends" data-name="Books are the best friends" class="cls-4" x="70" y="118.004">Books are the best friends</text>
+  <text id="Fight_Club" data-name="Fight Club" class="cls-5" x="151" y="91.998">Fight Club</text>
+</svg>
