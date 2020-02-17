@@ -69,15 +69,50 @@ body{
     
 }
 .block-text{
+    flex-basis: calc(100%-1200px);
     &__name{
         font-family: 'Open Sans', serif;
     }
     &__title{
         font-size: 48px;
+        font-weight: 700;
         span{
             display: block;
             color: $accent-color;
             font-size: 18px;
         }
+    }
+    p{
+        font-family: 'Open Sans', serif;
+        font-size: 15px;
+    }
+    &__btn{
+        display: block;
+        background-color: $accent-color;
+        color: $light-color;
+        text-decoration: none;
+        font-size: 18px;
+        width: 250px;
+        padding: 24px;
+        border-radius: 3px;
+        text-align: center;
+        
+        
+    }
+    &__btn:hover{
+        box-shadow: 0px 2px 0px 0px rgba(101, 228, 125, 0.5);
+
+    }
+}
+.block-book{
+    display: flex;
+    justify-content: space-between;
+    &-demo{
+        display: block;
+        width: 447px;
+        height: 643px;
+        background-image: url(../img/book-png.png);
+        background-repeat: no-repeat;
+        flex-basis: 1200px;
     }
 }
