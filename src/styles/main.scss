@@ -34,23 +34,27 @@ body{
     align-items: center;
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 38px;
-    padding-bottom: 166px;
+    padding-top: 50px;
+    padding-bottom: 176px;
     &_logo{
         display: block;
         width: 137px;
         height: 28px;
         background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
 
     }
     &-list{
+        margin-right: 4px;
         list-style-type: none;
         display: flex;
         justify-content: flex-end;
         font-family: 'Open Sans', serif;
+       
         &__item{
-            margin-left: 22px;
-            padding-bottom: 5px;
+            line-height: 1.5;
+            margin-left: 19px;
+            padding-bottom: 4px;
             border-bottom: 3px solid transparent;
             transition: 0.3s;
             &:hover{
@@ -71,20 +75,23 @@ body{
     
 }
 .block-text{
-    flex-basis: calc(100%-1200px);
+    flex-basis: 100%;
+    margin-right: 160px;
+   
     &__name{
         font-family: 'Open Sans', serif;
+        padding-bottom: 35px;
     }
     &__title{
         font-size: 48px;
         font-weight: 700;
         letter-spacing: 1.8px;
-        margin-bottom: 44px;
+        margin-bottom: 20px;
         span{
             display: block;
             color: $accent-color;
             font-size: 18px;
-            margin-top: 9px;
+            margin-top: 15px;
             letter-spacing: 0.9px;
         }
     }
@@ -92,7 +99,7 @@ body{
         font-family: 'Open Sans', serif;
         font-size: 15px;
         line-height: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 15px;
         letter-spacing: 0.7px;
 
     }
@@ -127,7 +134,9 @@ body{
         height: 643px;
         background-image: url(../img/book-png.png);
         background-repeat: no-repeat;
-        flex-basis: 1200px;
+        padding-bottom: 115px;
+        flex-basis: 100%;
+        
     }
 }
 .text-small{
