@@ -76,6 +76,7 @@ body{
 }
 .block-text{
     flex-basis: calc(90% - 465px);
+    padding-right: 85px;
     &__name{
         font-family: 'Open Sans', ;
         font-size: 18px;
