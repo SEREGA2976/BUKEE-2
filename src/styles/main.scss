@@ -9,7 +9,7 @@
 $light-color:#fff;
 $accent-color: #65e496;
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6,p{
     padding: 0;
     margin: 0;
 }
@@ -171,8 +171,9 @@ body{
         font-size: 14px;
         text-transform: capitalize;
         margin-top: 395px;
-        letter-spacing: 0.15px;
         font-weight: 300;
+        padding-left: 85px;
+        letter-spacing: 0.7px;
        
        } 
     }
