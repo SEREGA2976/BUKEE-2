@@ -181,6 +181,19 @@ body{
     
 }
 /*Конец блока page-main*/
+/*Начало блока block-avtor page-main*/
+.block-author{
+    display: flex;
+    justify-content: space-between;
+}
+.block-ava{
+    position: relative;
+    &__svg{
+        position: absolute;
+        z-index: -1;
+    }
+}
+
 
 
 
