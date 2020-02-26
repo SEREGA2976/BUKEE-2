@@ -26,9 +26,10 @@ body{
     background-image: linear-gradient( 150deg, rgb(84,183,161) 0%, rgb(66,99,132) 100%);
     background-repeat: no-repeat;
     background-size: cover;/*растягивание изображения по содержимому*/
-    color: $light-color;
-    
-
+    color: $light-color; 
+}
+.page{
+    padding-top: 160px;
 }
 .header{
     display: flex;
@@ -85,6 +86,11 @@ body{
         
       
     }
+    &__name-top{
+        margin-top: 15px;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
     &__title{
         font-size: 48px;
         font-weight: 700;
@@ -124,6 +130,11 @@ body{
         margin-bottom: 19px;
         
     }
+
+    &__btn-width{
+        max-width: 240px;
+    }
+    
     .text-small{
         font-size: 12px;
         font-family: 'Open Sans', sans-serif;
@@ -181,7 +192,7 @@ body{
     
 }
 /*Конец блока page-main*/
-/*Начало блока block-avtor page-main*/
+/*Начало блока block-avtor*/
 .block-author{
     display: flex;
     justify-content: space-between;
@@ -190,7 +201,12 @@ body{
     position: relative;
     &__svg{
         position: absolute;
+        right: 0;
         z-index: -1;
+    }
+    &__img{
+        margin-top: 47px;
+        margin-right: 44px;
     }
 }
 
