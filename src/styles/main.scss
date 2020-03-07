@@ -10,6 +10,7 @@ $light-color:#fff;
 $accent-color: #65e496;
 $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
+$btn-green-color:#5fc9b3;
 
 h1, h2, h3, h4, h5, h6,p{
     padding: 0;
@@ -274,6 +275,7 @@ h3{
     }
     &-table{
         flex-basis: 49%;
+       
         &_list{
             margin: 25px 0 0 0;
             padding: 0;
@@ -299,7 +301,7 @@ h3{
                     position: absolute;
                     left: 0;
                     top: 1px;
-                    background-color: $accent-color;
+                    background-color: $btn-green-color;
                     color: $light-color;
                     padding: 0px 7px;
                 }
@@ -321,8 +323,32 @@ h3{
         }
        
     }
+    &-social{
+        display: flex;
+        align-items: center;
+        margin-top: 14px;
+        &__title{
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            
+            
+        }
+        &__list{
+            list-style-type: none;
+            padding-left: 25px;
+            &>li{
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 18px;
+                margin-right: 12px;
+                &>a{
+                    color: $accent-color;
+                }
+            }
+        }
+    }
     
-
 }
 
 
