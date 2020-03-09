@@ -266,7 +266,7 @@ h3{
     display: flex;
     justify-content: space-around;
     margin-top: 180px;
-    padding-bottom: 163px;
+    padding-bottom: 161px;
     p{
         font-family: 'Open Sans', serif ;
         text-align: center;
@@ -280,7 +280,6 @@ h3{
             font-size: 80px;
             color: $accent-color;
             margin-bottom: 45px;
-
         }
     }
 }
@@ -301,6 +300,7 @@ h3{
     }
     &-table{
         flex-basis: 49%;
+        padding-bottom: 242px;
        
         &_list{
             margin: 25px 0 0 0;
@@ -346,6 +346,7 @@ h3{
             padding: 14px 45px;
             letter-spacing: 0.7px;
             margin-bottom: 19px;
+            
         }
        
     }
