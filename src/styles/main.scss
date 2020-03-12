@@ -377,20 +377,29 @@ h3{
     }
     
 }
-/*
+
 
 .block-books{
     
-    background-color: #b3ac95;
-}
-.wrap{
+    background-color: #ffffff;
+    &__head{
 
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 161px;
-
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__bg{
+        position: relative;
+        background-image: url(../img/book-cont.png);
+        width: 269px;
+        height: 409px;
+        margin-left: auto;
+        margin-right: auto
+    }
 }
+/*
 .content-books{
     display: flex;
     justify-content: space-between;
@@ -498,6 +507,7 @@ span{
     margin-right: auto;
     
 }
+
 
 */
 
