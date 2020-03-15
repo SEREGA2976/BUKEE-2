@@ -10,7 +10,7 @@ $light-color:#fff;
 $accent-color: #65e496;
 $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
-/*$btn-green-color:#5fc9b3;*/
+$btn-green-color:#5fc9b3;
 $btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
 
 
@@ -148,7 +148,7 @@ h3{
         background: $btn-gradient;
         color: $light-color;
         text-decoration: none;
-       /* max-width: 250px;*/
+		max-width: 250px;
         font-size: 18px;
         border-radius: 3px;
         text-align: center;
@@ -157,11 +157,7 @@ h3{
         letter-spacing: 0.75px;
         margin-bottom: 10px;
     }
-    &__btn-width{
-        max-width: 240px;
-    }
     
-
     .text-small{
         padding-top: 15px;
         font-size: 12px;
