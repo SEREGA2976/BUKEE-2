@@ -11,6 +11,8 @@ $accent-color: #65e496;
 $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
 $btn-green-color:#5fc9b3;
+$btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
+
 
 h1, h2, h3, h4, h5, h6,p{
     padding: 0;
@@ -143,7 +145,8 @@ h3{
     }
     &__btn{
         display: block;
-        background-color: $accent-color;
+       /* background-color: $accent-color;*/
+        background: $btn-gradient;
         color: $light-color;
         text-decoration: none;
         max-width: 250px;
@@ -305,7 +308,7 @@ h3{
             
         }
         &__btn{
-            background-color: $accent-color;
+            background: $btn-gradient;
             border: none;
             color: $light-color;
             text-decoration: none;
@@ -442,7 +445,7 @@ h3{
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 30px;
     }
-    &__btn{
+    &__link-btn{
         display: block;
         font-size: 15px;
         font-family: 'Open Sans', sans-serif;
@@ -462,7 +465,7 @@ h3{
         width: 220px;
         margin: 0 auto;
         border-radius: 3px;
-        background-color: $accent-color;
+        background: $btn-gradient;
         color: $bg-gray-color;
         
     }
