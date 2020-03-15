@@ -10,7 +10,7 @@ $light-color:#fff;
 $accent-color: #65e496;
 $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
-$btn-green-color:#5fc9b3;
+/*$btn-green-color:#5fc9b3;*/
 $btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
 
 
@@ -145,11 +145,10 @@ h3{
     }
     &__btn{
         display: block;
-       /* background-color: $accent-color;*/
         background: $btn-gradient;
         color: $light-color;
         text-decoration: none;
-        max-width: 250px;
+       /* max-width: 250px;*/
         font-size: 18px;
         border-radius: 3px;
         text-align: center;
@@ -157,11 +156,21 @@ h3{
         padding: 14px 0;
         letter-spacing: 0.75px;
         margin-bottom: 10px;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            height: 20px;
+            width: 100%;
+            background-color: #b2f1be;
+            position: absolute;
+            z-index: -1;
+        }
     }
-
     &__btn-width{
         max-width: 240px;
     }
+    
 
     .text-small{
         padding-top: 15px;
@@ -467,6 +476,16 @@ h3{
         border-radius: 3px;
         background: $btn-gradient;
         color: $bg-gray-color;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            height: 20px;
+            width: 100%;
+            background-color: #b2f1be;
+            position: absolute;
+            z-index: -1;
+        }
         
     }
     
