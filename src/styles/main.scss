@@ -166,6 +166,17 @@ h3{
         font-style: italic;
         line-height: 1.833;
     }
+    &-item{
+        &__date{
+            font-size: 15px;
+        }
+        &__title{
+            font-size: 18px;
+        }
+        &__desc{
+            font-size: 15px;
+        }
+    }
 }
 .block-book{
         display: flex;
@@ -225,9 +236,18 @@ h3{
         right: 0;
         z-index: -1;
     }
+    &__svg_left{
+        right: inherit;
+        left: 0;
+    }
     &__img{
         margin-top: 47px;
         margin-right: 44px;
+    }
+    &__img_left{
+        margin-top: 49px;
+        margin-left: 51px;
+        margin-right: 0;
     }
 }
 .block-counter{
