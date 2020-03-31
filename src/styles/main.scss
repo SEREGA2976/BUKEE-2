@@ -11,6 +11,7 @@ $accent-color: #65e496;
 $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
 $btn-green-color:#5fc9b3;
+$text-p-color: #696980;
 $btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
 
 
@@ -168,28 +169,6 @@ h3{
         font-style: italic;
         line-height: 1.833;
     }
-    &-item{
-        &__date{
-            font-size: 15px;
-        }
-        &__title{
-            font-size: 18px;
-        }
-        &__desc{
-            font-size: 15px;
-        }
-        &__btn{
-            padding: 12px  32px;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            max-width: 74px;
-            background-color: cadetblue;
-            font-size: 18px;
-            border-radius: 3px;
-        }
-    }
-    
 }
 .block-book{
         display: flex;
@@ -499,6 +478,95 @@ h3{
     }
     
 }
+.page-author{
+    padding-top: 162px;
+    padding-bottom: 163px;
+}
+.page-author-block{
+    display: flex;
+    justify-content: space-between;
+    .page-author-ava{
+        position: relative;
+        &__svg{
+            position: absolute;
+            left: 0;
+            z-index: -1;
+        }
+        &__img{
+            padding-left: 50px;
+            padding-top: 47px; 
+        }
+    }
+    .text-author{
+        flex-basis: calc(90% - 426px);
+        padding-left: 107px;
+        &__name{
+            font-size: 18px;
+            font-family: 'Open Sans', serif;
+            color: $text-p-color;
+            letter-spacing: 0.9px;
+            padding-bottom: 28px;
+        }
+        &__title{
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            /*padding-top: 35px;*/
+            color: $bg-dark-color;
+            span{
+                display: block;
+                font-size: 18px;
+                letter-spacing: 1.1px;
+                color: $accent-color;
+                padding-top: 24px;
+            }
+        }
+        &-item{
+            /*padding-top: 48px;*/
+            &__date{
+                padding-top: 40px;
+                letter-spacing: 0.9px;
+                font-size: 15px;
+                font-family: 'Open Sans', serif;
+                color: $text-p-color;
+            }
+            &__title{
+                font-size: 18px;
+                color: $bg-dark-color;
+                font-weight: 700;
+                padding-top: 5px;
+                letter-spacing: 0.9px;
+            }
+            &__desc{
+                padding-top: 25px;
+                padding-bottom: 25px;
+                letter-spacing: 0.9px;
+                font-size: 15px;
+                font-family: 'Open Sans', serif;
+                color: $text-p-color;
+                /*padding-bottom: 60px;*/
+            }
+            &__btn{
+                padding: 12px  32px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                letter-spacing: 0.5px;
+                max-width: 74px;
+                color: $light-color;
+                background:$btn-gradient;
+                font-size: 18px;
+                border-radius: 3px;
+               /* margin-bottom: 62px;*/
+            }
+        }
+    }
+}
+
+
+
+
+
 
 
 
