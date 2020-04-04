@@ -655,6 +655,33 @@ h4{
     }
 
 }
+.block-letter{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        flex-basis: 49%;
+       
+    }
+    &__input{
+        width: 100%;
+        background-color: $bg-dark-color;
+    }
+    &__btn{
+        background: $btn-gradient;
+        border:none;
+        color: $light-color;
+        text-decoration: none;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 28px;
+        padding: 11px 0 15px 0;
+        letter-spacing: 0.7px;
+        box-shadow: 0 -2px #adedbb inset;
+        display: block;
+        width: 100%;
+    }
+}
     
    
 
