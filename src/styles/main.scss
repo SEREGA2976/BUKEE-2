@@ -15,6 +15,7 @@ $text-p-color: #696980;
 $btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
 
 
+
 h1, h2, h3, h4, h5, h6,p{
     padding: 0;
     margin: 0;
@@ -658,6 +659,7 @@ h4{
 .block-letter{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 162px;
     &-item{
         flex-basis: 49%;
        
@@ -665,13 +667,27 @@ h4{
     &__input{
         width: 100%;
         background-color: $bg-dark-color;
+        box-sizing: border-box;
+        padding: 15px 27px;
+        color: $light-color;
+        font-size: 18px;
+        border: none;
+        &:focus{
+            outline: none;
+        }
     }
     &__title{
         font-size: 48px;
         color: $bg-dark-color;
-        text-align: center;
-        margin-bottom: 25px;
-        letter-spacing: 2px;
+        margin-top: 8px;
+        margin-bottom: 23px;
+        letter-spacing: 1.9px;
+    }
+    &__text{
+        font-size: 15px;
+        font-family: 'Open Sans', serif;
+        color: $text-p-color;
+        letter-spacing: 0.75px;
     }
     &__btn{
         background: $btn-gradient;
@@ -681,12 +697,15 @@ h4{
         border-radius: 3px;
         text-align: center;
         font-size: 18px;
-        margin-top: 28px;
+        margin-top: 21px;
         padding: 11px 0 15px 0;
         letter-spacing: 0.7px;
         box-shadow: 0 -2px #adedbb inset;
         display: block;
         width: 100%;
+        &:focus{
+            outline: none;
+        }
     }
 }
     
