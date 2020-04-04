@@ -666,6 +666,13 @@ h4{
         width: 100%;
         background-color: $bg-dark-color;
     }
+    &__title{
+        font-size: 48px;
+        color: $bg-dark-color;
+        text-align: center;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    }
     &__btn{
         background: $btn-gradient;
         border:none;
