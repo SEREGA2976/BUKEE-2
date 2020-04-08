@@ -12,6 +12,7 @@ $bg-gray-color:#f5f6fa;
 $bg-dark-color:#44444f;
 $btn-green-color:#5fc9b3;
 $text-p-color: #696980;
+$footer-text-color:#9191b5;
 $btn-gradient: linear-gradient(to top left, #65e49c, #65e4b0);
 
 
@@ -705,6 +706,56 @@ h4{
         width: 100%;
         &:focus{
             outline: none;
+        }
+    }
+}
+.footer{
+    background-color: $bg-dark-color;
+    color: $footer-text-color;
+    font-size: 15px;
+    padding: 162px 0;
+}
+.block-footer{
+    display: flex;
+    justify-content: space-between;
+    
+    &>div{
+        flex-basis: 20%;
+        width: 369px;
+        
+    }
+    &__logo{
+        display: block;
+        background-image: url(../img/logo-footer.svg);
+        background-repeat: no-repeat;
+        width: 137px;
+        height: 28px;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 700;
+        color: $accent-color;
+        text-transform: uppercase;
+    }
+    &__desc{
+        padding-top: 35px;
+        width: 345px;
+    }
+    &__list{
+            list-style-type: none;
+            padding-left: 0;
+            padding-top: 35px;
+    }
+    &__social{
+        display: flex;
+        list-style-type: none;
+        padding-top: 18px;
+        
+        &>li{
+            margin-right: 10px;
+            &>a{
+                color: $accent-color;
+            }
         }
     }
 }
