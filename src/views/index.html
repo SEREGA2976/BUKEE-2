@@ -26,6 +26,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     </head>
     <body>
         @@include("../blocks/modules/header/header.html")
@@ -179,7 +180,7 @@
             <a href="#" class="book__link">Browse all books</a>
         </div>
     </div>
-    <div class="block-dennings">
+    <!--<div class="block-dennings">
         <div class="wrap">
             <img src="img/kate.png" alt="avatar">
             <h3>Kate Dennings</h3>
@@ -189,6 +190,36 @@
                 <a href="#" class="circle"></a>
                 <a href="#" class="circle"></a>
                 <a href="#" class="circle"></a>
+            </div>
+        </div>
+    </div>-->
+    <div class="page">
+        <div class="wrap">
+            <div class="block-carousel">
+                <div>
+                    <h3>Kate Dennings</h3>
+                    <p>Calligraphy Expert</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Quis ipsum suspendisse ultrices gravida. 
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+                <div>
+                    <h3>Kate Dennings</h3>
+                    <p>Calligraphy Expert</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Quis ipsum suspendisse ultrices gravida. 
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+                <div>
+                    <h3>Kate Dennings</h3>
+                    <p>Calligraphy Expert</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Quis ipsum suspendisse ultrices gravida. 
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
             </div>
         </div>
     </div>
@@ -346,6 +377,16 @@
         </div>
     </div>
         @@include("../blocks/modules/footer/footer.html")
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+             $(document).ready(function(){
+             $('.block-carousel').slick({
+                dots:true,
+                arrows: false
+            });
+            });
+        </script>
         <script src="js/main.js"></script>
         <script src="js/vendor.js"></script>
     </body>
